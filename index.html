@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hafida Bourki - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+
+        header {
+            background-color: #1e90ff;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        h1,
+        h2 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #4169e1;
+            padding: 0.5rem;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+        }
+
+        section {
+            padding: 2rem;
+            margin: 1rem auto;
+            max-width: 800px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .skills,
+        .languages,
+        .soft-skills,
+        .managerial-skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .skill,
+        .language,
+        .soft-skill,
+        .managerial-skill {
+            background-color: #1e90ff;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+        }
+
+        .experience-item,
+        .education-item {
+            margin-bottom: 1rem;
+        }
+
+        form {
+            display: grid;
+            gap: 1rem;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 0.5rem;
+        }
+
+        button {
+            background-color: #1e90ff;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Hafida Bourki</h1>
+        <p>Web Developer</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#personal-info">Personal Info</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#technical-competences">Technical Competences</a>
+        <a href="#languages">Languages</a>
+        <a href="#soft-skills">Soft Skills</a>
+        <a href="#managerial-competences">Managerial Competences</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Hafida Bourki, a passionate web developer with a keen interest in creating beautiful and
+                functional websites. I love turning ideas into reality through code and continuously learning new
+                technologies. With a strong foundation in both technical and managerial skills, I strive to deliver
+                high-quality solutions and lead teams to success.</p>
+        </section>
+
+        <section id="personal-info">
+            <h2>Personal Information</h2>
+            <p><strong>Name:</strong> Hafida Bourki</p>
+            <p><strong>Email:</strong> hafida.bourki@example.com</p>
+            <p><strong>Location:</strong> Your City, Country</p>
+            <p><strong>LinkedIn:</strong> <a
+                    href="https://www.linkedin.com/in/hafidabourki">linkedin.com/in/hafidabourki</a></p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Bachelor's Degree in Computer Science</h3>
+                <p>University Name, Graduation Year</p>
+            </div>
+            <div class="education-item">
+                <h3>Web Development Bootcamp</h3>
+                <p>Bootcamp Name, Completion Year</p>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <div class="experience-item">
+                <h3>Junior Web Developer</h3>
+                <p>Company Name, Start Date - End Date</p>
+                <ul>
+                    <li>Developed and maintained responsive websites using HTML, CSS, and JavaScript</li>
+                    <li>Collaborated with the design team to implement user-friendly interfaces</li>
+                    <li>Participated in code reviews and implemented best practices</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Web Development Intern</h3>
+                <p>Company Name, Start Date - End Date</p>
+                <ul>
+                    <li>Assisted in the development of a company website using React</li>
+                    <li>Learned and applied best practices in version control using Git</li>
+                    <li>Contributed to the implementation of RESTful APIs</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="technical-competences">
+            <h2>Technical Competences</h2>
+            <div class="skills">
+                <span class="skill">HTML5</span>
+                <span class="skill">CSS3</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">React</span>
+                <span class="skill">Node.js</span>
+                <span class="skill">Git</span>
+                <span class="skill">RESTful APIs</span>
+                <span class="skill">SQL</span>
+                <span class="skill">MongoDB</span>
+            </div>
+        </section>
+
+        <section id="languages">
+            <h2>Languages</h2>
+            <div class="languages">
+                <span class="language">Arabic (Native)</span>
+                <span class="language">English (Fluent)</span>
+                <span class="language">French (Intermediate)</span>
+            </div>
+        </section>
+
+        <section id="soft-skills">
+            <h2>Soft Skills</h2>
+            <div class="soft-skills">
+                <span class="soft-skill">Problem Solving</span>
+                <span class="soft-skill">Team Collaboration</span>
+                <span class="soft-skill">Communication</span>
+                <span class="soft-skill">Time Management</span>
+                <span class="soft-skill">Adaptability</span>
+            </div>
+        </section>
+
+        <section id="managerial-competences">
+            <h2>Managerial Competences</h2>
+            <div class="managerial-skills">
+                <span class="managerial-skill">Project Management</span>
+                <span class="managerial-skill">Team Leadership</span>
+                <span class="managerial-skill">Strategic Planning</span>
+                <span class="managerial-skill">Conflict Resolution</span>
+                <span class="managerial-skill">Resource Allocation</span>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+            this.reset();
+        });
+    </script>
+</body>
+
+</html>
